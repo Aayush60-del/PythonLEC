@@ -1,1 +1,0 @@
-print("today's topic is Strings in python")
