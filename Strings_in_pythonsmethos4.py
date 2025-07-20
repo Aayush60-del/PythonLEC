@@ -47,13 +47,93 @@ for j in name2:
     print(naam[0 : 5]) #output : ayu
 
     #To find length of a string -> len(var_name) : function
-    # print("length of the string " + naam + "is " , len(naam))
+    print("length of the string " + naam + "is " , len(naam))
     fruit = "apple"
     print("apple is a fruit of length " + str(len(fruit)))
     print(fruit[0 : 3])
     print(fruit[:4]) #if we don't specify first point it will take 0 as default
     
-    # NEGATIVE SLICING 
+    #😮‍💨 NEGATIVE SLICING 
     state = "Uttrakhand"
     print("lenght of state : " , len(state)) #lenght = 10
     print(state[-3 : -1]) #python-> 10 -3 : 10 -1 => print(state[7 : 9])
+
+
+name = "bruno"
+print(name[0 :3])
+
+value1 = int(input("enter a value")) #input is a function which by default takes a string
+value2 = int(input("enter a second value"))
+
+print(value1 + value2) 
+
+# 😮‍💨  STRING METHOD -> UPPER / LOWER CASE
+
+# Strings are immutable and when we do upper/ lower case it creates a new string and returns it
+
+car = "thar"
+print(car.upper()) # -> THAR
+print(car.lower()) # -> thar
+
+#  😮‍💨 rstrip() -> method of string
+# it removes the trailing spaces or symbols from the string-> var_name.rstrip("symbols" + "symbols")
+
+fruit = "Pineapple!!!!!!!!"
+print(fruit.rstrip("!"))
+
+hero = "batman!!!!#!@@@"
+print(hero.rstrip("!" + "@" + "#"))
+
+# 😮‍💨  REPLACE METHOD-> var_name.replace("jsiko ", "jisse")
+hero2 = "IRONMAN"
+print(hero2.replace(("IRON") , "BAT")) # -> BATTMAN
+
+
+
+#😮‍💨  if a string is give hello world and we print it by using list(string) method
+# it will print each character of the string as a list item
+
+str = "hello world"
+print(list(str))
+
+a = "ice" 
+b = "blue"
+print(tuple(a) + tuple(b))
+
+
+# 😮‍💨 SPLIT METHOD -> IT WILL SPLIT THE WORDS ✅ (only valid if there is space btw words)
+#eg -> there is a string of  "Hello World"
+# print(str.split()) => ["Hello" , "World"]
+
+a = "hello sir"
+print(a.split())
+
+# 😮‍💨 Capitalize Method -> it will capitalize the first letter of the string and make the rest of the string in lower case
+
+a = "ayush neGI"
+print(a.capitalize()) # -> Ayush
+print(a.split())
+print(list(a))
+
+# 😮‍💨 CENTER METHOD -> 
+a = "bruno"
+print(a.capitalize())
+print(a.center(20)) # -> Bruno  (it will add spaces on both sides to mak
+
+# 😮‍💨  COUNT METHOD -> it will count the number of times a char/word is repeated in the string
+
+name = "Ayush negi aaayush is not"
+print(name.count("yush"))
+print(name.count("y"))
+
+
+# 😮‍💨 ENDSWITH() METHOD-> it will check if the string ends with the given word or character or symbol
+#if yes return true else false
+
+uni = "Chandigarh University."
+print(uni.endswith("!")) # return false
+
+print(uni.endswith(".")) # return true
+
+name = "hello my name is ayush"
+print(name.find("n" + "i"))

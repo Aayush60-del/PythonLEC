@@ -9,7 +9,7 @@ print(5)
 
 # In a line of code a person wants new line use -> \n
 
-print("hello i'm ius \n and my friend \"ius \" name is deol")  
+print("hello i'm ius \n and my friend \"ius\" name is deol")  
 
 #output -> hello i'm ius
 # -> and my friend name is deol

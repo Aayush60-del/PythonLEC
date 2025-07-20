@@ -1,3 +1,8 @@
+
+#user input syntax ->
+# var(name) = datatype(input("write"))
+
+
 print("Online Calculator")
 a = int(input("type first number"))
 b = int(input("type second number"))

@@ -35,6 +35,11 @@ D = 4
 print(int(C) + D) # c(4.5) -> integer(4)
 
 
+
+
+
+
+
 #USER__INPUT
 
 # Syntax : Var_name = data_type(input("write"))
@@ -45,8 +50,11 @@ print("hello " , name) # (+) and (,) both are valid
 
 x = input("enter first number") #input is always takes string
 y = input("enter second number")
-print(x + y) #output: xy
+print(x + y) #output: xy -> concatenate the string
 
+
+# Syntax : Var_name = data_type(input("write"))
 m = int(input("enter first number")) 
 n = int(input("enter second number"))
 print(m+n)
+
