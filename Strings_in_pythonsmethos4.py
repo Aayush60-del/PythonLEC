@@ -90,7 +90,7 @@ print(hero2.replace(("IRON") , "BAT")) # -> BATTMAN
 
 
 
-#😮‍💨  if a string is give hello world and we print it by using list(string) method
+#😮‍💨 if a string is give hello world and we print it by using list(string) method
 # it will print each character of the string as a list item
 
 str = "hello world"
@@ -120,7 +120,7 @@ a = "bruno"
 print(a.capitalize())
 print(a.center(20)) # -> Bruno  (it will add spaces on both sides to mak
 
-# 😮‍💨  COUNT METHOD -> it will count the number of times a char/word is repeated in the string
+# 😮‍💨 COUNT METHOD -> it will count the number of times a char/word is repeated in the string
 
 name = "Ayush negi aaayush is not"
 print(name.count("yush"))
@@ -135,5 +135,7 @@ print(uni.endswith("!")) # return false
 
 print(uni.endswith(".")) # return true
 
+# 😮‍💨 FIND() METHOD -> IT WILL FIND THE WORD IN THE STRING AND
+#  RETURN THE FIRST PRIOR INDEX POSITION OF THAT WORD.
 name = "hello my name is ayush"
-print(name.find("n" + "i"))
+print(name.find("name")) # return 9 -> name first prior index pos of n : 9
