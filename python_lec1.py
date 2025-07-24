@@ -1,3 +1,9 @@
+dog = "bruno"
+print("id of dog : " , id(dog))
+
+list1 = [1, 2, 3, 4, 5]
+for i in range(5):
+    print("\n" , id(list1[i]))
 
 #print( ) -> is a function or method that requires a valid object
 
@@ -29,4 +35,5 @@ print("hello", 6 , 7 , 8 ,sep = "-" , end= "11877\n")
 
 print(24 ,"BCS" , 11877 , sep = "-" , end = "CSE")
 #output -> 24-BCS-11877
+ 
 

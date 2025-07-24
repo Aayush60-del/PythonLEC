@@ -1,4 +1,9 @@
 
+def add(x, y):
+    print("Addition of", x, "+", y, "=", x + y)
+
+    add(1, 2)  # <-- This line is wrongly indented (inside function)
+
 
 #Swapping of two numbers
 
@@ -63,3 +68,4 @@ print("data type of this is : " , type(dict1))
 
 dict2 = {"name": "chetan" , "age" : 15 , "canvote": False}
 print(dict2)
+

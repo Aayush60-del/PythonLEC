@@ -12,7 +12,7 @@ while i<= user_time:
     print("4. Division")
     print("5. Modulus")
 
-    a = int(input("enter a number"))
+    a = int(input("enter choice:"))
     if(a == 1):
         print("Addition")
         print("Sum is: ", num1 + num2)
