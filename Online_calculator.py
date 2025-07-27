@@ -1,4 +1,24 @@
+
+
+
+def car(**car_name):
+    
+ print(type(car_name))
+print("this is " , car_name["car1"] , car_name["car2"])
+
+car_name(car1 = "BMW" , CAR2 = "MERCEDIES")
+
+
+
+
+
+
+
 print("Welcome ! Online Calculator")
+
+
+
+
 
 i =0
 user_time = 1
@@ -70,3 +90,6 @@ while i<= user_time:
             break
         else:
             i -= 1
+
+            
+

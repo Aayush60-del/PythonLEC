@@ -1,10 +1,4 @@
 
-def add(x, y):
-    print("Addition of", x, "+", y, "=", x + y)
-
-    add(1, 2)  # <-- This line is wrongly indented (inside function)
-
-
 #Swapping of two numbers
 
 a = 'h '
