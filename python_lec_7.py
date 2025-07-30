@@ -81,7 +81,7 @@ print(num[1:8:2]) # [2 , 3->4(print) ,5->6(print) , 7->8(print)] => [2 , 4 , 6 ,
 print(num[-8 : -1 : 2])
 
 # 5. LIST COMPREHENSION => we can create a lsit on the fly
-
+# In list comprehension I can also give some conditions.
 lst = [i for i in range(5)] # [0, 1, 2, 3, 4]
 print(lst) # [0, 1, 2, 3, 4]
 
@@ -90,3 +90,18 @@ print(lst)
 
 list_ = [i*i for i in  range(5)] # [0*0 -> 1*1 -> 2*2 -> 3*3 -> 4*4]
 print(list_) 
+
+
+
+
+
+upto = 1
+a = 1 
+while a <= 5:
+    b  = 1
+    while b <= upto:
+        print("*" , end = "")
+        b += 1
+print()     
+upto += 1        
+a += 1

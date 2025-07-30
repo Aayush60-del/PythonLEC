@@ -94,9 +94,32 @@ print("a : " , a)
 
 print()
 
-# 8. list_1.extend(list_2) method -> add 2 list
+# 8. ✅ list_1.extend(list_2) method -> It will combine 2 lists
 
 list_1 = [1,2,3,4,5]
 list_2 = [6,7,8,9,10]
 list_1.extend(list_2)
 print(list_1)
+
+
+
+values  = []
+for i in range(10):
+ 
+    values.append(i)
+print(values)
+
+
+def score_(sc):
+   sc = list(sc)
+   sc.sort(reverse = True)
+   max = sc[0]
+   for i in range(len(sc)):
+      if (max > sc[i]):
+         return sc[i]
+      
+      
+result = score_(values)
+if(result != -1):
+   print(result)
+   

@@ -13,25 +13,34 @@
 # 1
 
 
-name1 = "__commit__"
-name = name1.strip("!" +  "@" + "#" +"$" +"%" +"^" +"&" +"*"+"()"+"-"+"="+"_"+"+"+"[]"+"{}"+";"+"/"+","+"<"+">"+"|")
-for i in list(name):
- print(i , ":" , list(name).count(i))  # count() returns the number of occurrences of the specified value.  #
- max = list(name).count(i)                                                                                                                                                                                             
+# name1 = "__commit__"
+# name = name1.strip("!" +  "@" + "#" +"$" +"%" +"^" +"&" +"*"+"()"+"-"+"="+"_"+"+"+"[]"+"{}"+";"+"/"+","+"<"+">"+"|")
+# for i in list(name):
+#  print(i , ":" , list(name).count(i))  # count() returns the number of occurrences of the specified value.  #
+#  max = list(name).count(i)                                                                                                                                                                                             
 
-for j in list(name):
- if(list(name).count(j) >= max):
-  a = j
-  max = list(name).count(j)
+# for j in list(name):
+#  if(list(name).count(j) >= max):
+#   a = j
+#   max = list(name).count(j)
 
-print(a)
+# print(a)
    
    
+
 
 
    
      
 
         
-        
+x =int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+
+list1 = [(i , j , k) for i in range(x)  for j in range(y) for k in range(z) if(i + j + k) != n]   
+print(list1)
+
+    
     
