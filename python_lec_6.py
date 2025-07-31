@@ -1,6 +1,7 @@
 # Function with *args (tuple)
 def sum_(*num):  # single * -> tuple (0,1,2,3,4,5)
     total = 0
+    print(num)
     for i in num:
         print(i, end=" ")
         total += i
