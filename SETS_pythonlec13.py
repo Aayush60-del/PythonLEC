@@ -85,7 +85,9 @@ print(s3) # {1, 2, 3, 4, 5, 6, 11}
 
 #9. remove method() / discard method() => remove an element from set.
 s3.remove(11)
-print(s3) # {1, 2, 3, 4, 5, 6} 
+print("remove method : " ,s3) # {1, 2, 3, 4, 5, 6} 
+s3.discard(3)
+print("discard method :" , s3)
 
 #10 POP method()
 # AS WE KNBOW THAT SETS EXECUTION IS RANDOM SO USING POP METHOD WILL REMOVE LAST ELEMET N FROM SET

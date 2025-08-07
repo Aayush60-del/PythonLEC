@@ -104,11 +104,78 @@
 # result = records(n)
 # print(result)
 
-name = "ius"
-marks = 90
-list = [[name , marks],["deol",90],["chetan",60],["aniket",45,"ima"] ,5]
-print(list[0][0] , list[0][1])
-print(list[1][0] , list[1][1])
-print(list[2][0] , list[2][1])
-print(list[3][0] , list[3][1] , list[3][2])
-print(list[4])
+# list = [["deol",90],["chetan",90],["aniket",50,]]
+# for i in list:
+#     for j in list():   
+#         if list[i][1] == list[j][1]:
+#             print(list[i][1])
+    
+    
+
+
+# def check(n):   
+#      num_st = n
+#      re = []
+#      N = []
+#      if (2<=num_st and num_st<=5):
+#         for i in range(num_st):
+#            name = input()
+#            score = float(input())
+#            records =[name,score]
+#            re.append(records)
+#         for i in range(len(re)):
+#             N.append(re[i][1])
+
+#         for j in range(len(N)):
+#           for k in range(1, len(N)):
+#             if N[j] == N[k]:
+#               print(N[j])
+
+
+     
+
+              
+# n = int(input())
+# check(n)
+
+
+# a = 1
+# n = 1
+# while n <= 5:
+
+#     for i in range(upto):
+#         print("",a,end = "")
+#     print()   
+#     upto +=1
+#     n += 1
+
+# print()
+
+
+# print(a)
+# for i in range(5):
+#     j = 0
+#     while j<=upto:
+#         if(j==0 or j == upto):
+#             print(a,end = "")
+#         else:
+#             print("2",end = "")
+#         j+=1
+#     upto +=1
+#     print()
+
+list = []
+a = 0 
+b = 1
+i = 0
+num = 1
+upto = 1
+for i in range(num):
+    while i<= upto:
+       c = a + b
+       if(i == 0 or i == upto):
+          list.append([c])
+print(list)    
+    
+
+    

@@ -1,0 +1,77 @@
+
+#Dictionaries in python : 
+# a dictionary is a ordered collection of data items
+# IT COMPRISES OF --> KEY : VALUE PAIR
+
+naam = "ius"
+dit = {"Name" : naam,
+        "Age" : 20 , 
+        "Branch" : "CSE"}
+#Accessing all values as it is a dictionary
+print("details : ",dit)
+
+#Accessing a single value
+# 1. print(dit["Name"]) 2. print("dit.get(key_name)) : " , dit.get("Name"))
+
+print(dit["Name"]) #it will throw an error if name does'nt exsist.
+print("dit.get(key_name)) : " , dit.get("Name")) #it will return (none) if name does'nt exsist.
+print(dit["Branch"])  
+
+print()
+
+for i  in dit:
+    print(i)
+
+print()
+
+# Accessing values in dictionary ->
+#  i=0 :KEY , dit[i] : Value_pair 
+for i in dit:
+    print(i , dit[i])
+
+print()
+
+#A B C BOOK
+a = {"A" : "Apple",
+       "B" : "Ball",
+       "C" : "Cat",
+       "D" : "Dog",
+       "E" : "Elephant",
+       "F" : "Fish",
+       "G" : "Giraffe",
+       }
+
+for i in a:
+    print("Enter a Alphabet")
+    m = input()
+    print(a[m])
+    print("enter 1 to continue , 0 to exit")
+    n = int(input())
+    if n == 0:
+        break
+
+
+print()
+#we can access a key with some integer value to dict. 
+dit1 = {32 : "ius" , 45 : "cse"}
+print("dit1[32]" , dit1[32])
+print("dist1[45]" , dit1[45])
+
+print()
+#to access all the keys : dict_name.keys()
+dict3 = {"Name":"ius" , "Age": 20 , "Dep":"CSE"}
+
+print(dict3.keys()) #it will return dict_keys(['Name', 'Age', 'Dep'])
+print(dict3.values()) # it will return dict_values(['ius', 20, 'CSE'])
+
+for i in dict3.keys():
+    print(f"the values corresponds to {i} :", dict3[i]) #f-string
+    print("the values corresponds to",i,":",dict3[i]) #without using f-string
+
+# print(dict3["Dep"])
+# print(dict3.get("Name"))
+
+lis = list(dict3.keys())
+print(dict3[lis[1]])
+
+
