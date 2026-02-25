@@ -19,8 +19,9 @@ print(dit["Branch"])
 
 print()
 
-for i  in dit:
-    print(i)
+for i  in dit.keys():
+    print(i , dit[i])
+
 
 print()
 
@@ -32,23 +33,23 @@ for i in dit:
 print()
 
 #A B C BOOK
-a = {"A" : "Apple",
-       "B" : "Ball",
-       "C" : "Cat",
-       "D" : "Dog",
-       "E" : "Elephant",
-       "F" : "Fish",
-       "G" : "Giraffe",
-       }
+# a = {"A" : "Apple",
+#        "B" : "Ball",
+#        "C" : "Cat",
+#        "D" : "Dog",
+#        "E" : "Elephant",
+#        "F" : "Fish",
+#        "G" : "Giraffe",
+#        }
 
-for i in a:
-    print("Enter a Alphabet")
-    m = input()
-    print(a[m])
-    print("enter 1 to continue , 0 to exit")
-    n = int(input())
-    if n == 0:
-        break
+# for i in a:
+#     print("Enter a Alphabet")
+#     m = input()
+#     print(a[m])
+#     print("enter 1 to continue , 0 to exit")
+#     n = int(input())
+#     if n == 0:
+#         break
 
 
 print()
@@ -71,7 +72,23 @@ for i in dict3.keys():
 # print(dict3["Dep"])
 # print(dict3.get("Name"))
 
-lis = list(dict3.keys())
-print(dict3[lis[1]])
+list = []
+dicto = {"name" : "ius" , "age" : 20}
+
+for i in dicto.keys():
+    list.append([i , dicto[i]])
+
+print(list)
+print(list[0])
+
+print()
+
+
+# for i in range(2):
+#     naam = input()
+#     umar = int(input())
+#     doct = {"name":naam_ , "Age" : umar}
+#     list = list(doct.keys() , doct.values())
+
 
 

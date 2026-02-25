@@ -63,11 +63,17 @@ print(count)
 
 #Operation on tuple:
 countries = ("India" , "America" , "Spain" , "Canada" , "UK" ,"France")
-
 countries = list(countries)
 
+print(countries)
+
 countries.append("Russia")
+
+print(countries)
+
+
 countries.pop(3)
+print(countries)
 countries[4] = "Africa"
 
 countries = tuple(countries)
@@ -77,3 +83,10 @@ print(countries)
 tup6 = (1,2,3,59,7,45,33,4,3,46,4,)
 res = tup.index(3,0,5)
 print(res)
+
+t_ = (1,2,3,4,5)
+list__ = list(t_)
+print(list__)
+print(list__[4])
+
+

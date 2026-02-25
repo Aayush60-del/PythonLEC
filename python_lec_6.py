@@ -20,3 +20,12 @@ def name(fname, mname, lname):
     print(fname, mname, lname)
 
 name("ius", "singh", "negi")
+
+
+input_string = "Hello, World!"
+list(input_string)
+print(list)
+
+x = lambda a ,b : a+b                                                          
+print(x(5,5))
+

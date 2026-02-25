@@ -123,3 +123,25 @@ result = score_(values)
 if(result != -1):
    print(result)
    
+   
+# Age = 20 : {ius, deol}
+# key(Age) : value(list_comprehension) 
+
+#we can define age 20 persons at once
+   
+# dict_ ={}
+# for i in range(2):
+#     inputs = input().split()
+#     Age = int(inputs[0])
+#     list = [x for x in inputs[1:]]
+#     dict = {Age:list}
+#     dict_.update(dict)
+# print(dict_)
+
+
+n= [1,2,3]
+l = list(map(lambda x :x**2,n))
+print(l)
+
+li_ = list(map(str,n))
+print(li_)
